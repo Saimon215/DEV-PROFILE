@@ -7,7 +7,7 @@ This repository contains my **Developer Profile Web App**, a multi‑page static
 ## 🔗 Live Resources
 
 - **Live Site:** https://saimon215.github.io/DEV-PROFILE/
-- **Reflection Article:** https://saimon215.github.io/Saimon215/reflection.html  
+- **Reflection Article:** https://saimon215.github.io/DEV-PROFILE/reflection.html  
 - **Nu HTML Validator Report (Home Page):** *(https://validator.w3.org/nu/?doc=https%3A%2F%2Fsaimon215.github.io%2FDEV-PROFILE%2F)*  
 - **WAVE Accessibility Report:** *(https://wave.webaim.org/report#/https://saimon215.github.io/DEV-PROFILE/)*  
 
