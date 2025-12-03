@@ -8,8 +8,8 @@ This repository contains my **Developer Profile Web App**, a multi‑page static
 
 - **Live Site:** https://saimon215.github.io/DEV-PROFILE/
 - **Reflection Article:** https://saimon215.github.io/Saimon215/reflection.html  
-- **Nu HTML Validator Report (Home Page):** *(insert updated Nu validation link after validating)*  
-- **WAVE Accessibility Report:** *(insert updated WAVE report link after testing)*  
+- **Nu HTML Validator Report (Home Page):** *(https://validator.w3.org/nu/?doc=https%3A%2F%2Fsaimon215.github.io%2FDEV-PROFILE%2F)*  
+- **WAVE Accessibility Report:** *(https://wave.webaim.org/report#/https://saimon215.github.io/DEV-PROFILE/)*  
 
 ---
 
@@ -103,17 +103,16 @@ A required written component, delivered in Markdown and rendered in‑page using
 DEV PROFILE/
 │ index.html
 │ README.md
+│ reflection.html
 │
-├── docs/
-│   ├── css/style.css
-│   ├── jscripts/scripts.js
-│   ├── reflection.html
-│   ├── pages/
-│   │   ├── project.html
-│   │   ├── achievements.html
-│   │   ├── blog.html
-│   │   └── resources.html
-│   └── assets/
+├── css/style.css
+├── jscripts/scripts.js
+├── pages/
+│   ├── project.html
+│   ├── achievements.html
+│   ├── blog.html
+│   └── resources.html
+└── assets/
 │       ├── profile.jpg
 │       ├── resume.pdf
 │       └── data/
