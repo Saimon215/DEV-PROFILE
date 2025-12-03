@@ -1,0 +1,23 @@
+[
+  {
+    "title": "President's List",
+    "term": "Spring 2025",
+    "category": "Academic Honor",
+    "description": "Recognized by the University of North Alabama and the Sanders College of Business and Technology for exceptional academic achievement.",
+    "image": "../assets/president-list.png"
+  },
+  {
+    "title": "Dean's List",
+    "term": "Fall 2024",
+    "category": "Academic Honor",
+    "description": "Awarded by the Sanders College of Business and Technology for outstanding academic performance during the Fall 2024 semester.",
+    "image": "../assets/dean-list.png"
+  },
+  {
+    "title": "Personal Recognition",
+    "term": "Ongoing",
+    "category": "Profile",
+    "description": "College senior at UNA majoring in IT with a Cybersecurity concentration, former Scout Team President with volunteer experience (Red Crescent & UNICEF), and maintaining a strong academic performance (GPA 3.60 expected at graduation).",
+    "image": ""
+  }
+]
