@@ -8,13 +8,13 @@
   <!-- Normalize -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
 
-<!-- Bootstrap 5 CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<!-- Custom styles (NO "docs/" in the path) -->
-<link rel="stylesheet" href="css/style.css">
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="bg-light">
+<body>
 
   <!-- NAV -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-brand" aria-label="Main navigation">
@@ -32,12 +32,11 @@
       <!-- Collapsible content -->
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <!-- pages live in docs/pages/ -->
-          <li class="nav-item"><a class="nav-link" href="docs/pages/project.html">Projects</a></li>
-          <li class="nav-item"><a class="nav-link" href="docs/pages/achievements.html">Achievements</a></li>
-          <li class="nav-item"><a class="nav-link" href="docs/pages/blog.html">Blog</a></li>
-          <li class="nav-item"><a class="nav-link" href="docs/pages/resources.html">Resources</a></li>
-          <li class="nav-item"><a class="nav-link" href="docs/reflection.html">Reflection</a></li>
+          <li class="nav-item"><a class="nav-link" href="pages/project.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="pages/achievements.html">Achievements</a></li>
+          <li class="nav-item"><a class="nav-link" href="pages/blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="pages/resources.html">Resources</a></li>
+          <li class="nav-item"><a class="nav-link" href="reflection.html">Reflection</a></li>
         </ul>
 
         <!-- Right-side quick links -->
@@ -55,7 +54,7 @@
     <section class="hero p-4 p-md-5 shadow-soft rounded-2xl">
       <div class="row align-items-center g-4">
         <div class="col-auto">
-          <!-- profile image lives in docs/assets/ -->
+          <!-- profile image lives in assets/ -->
           <img src="assets/profile.jpg" alt="Photo of Saimon Hasan"
                class="rounded-circle shadow" width="110" height="110">
         </div>
@@ -71,8 +70,8 @@
           </div>
 
           <div class="d-flex flex-wrap gap-2">
-            <a class="btn btn-brand btn-sm text-white" href="docs/pages/project.html">View Projects</a>
-            <a class="btn btn-outline-primary btn-sm" href="docs/assets/resume.pdf" target="_blank" rel="noopener noreferrer">Resume (PDF)</a>
+            <a class="btn btn-brand btn-sm text-white" href="pages/project.html">View Projects</a>
+            <a class="btn btn-outline-primary btn-sm" href="assets/resume.pdf" target="_blank" rel="noopener noreferrer">Resume (PDF)</a>
           </div>
         </div>
 
@@ -114,9 +113,9 @@
                 grow toward an AWS cloud security / application security role.
               </p>
               <div class="d-flex flex-wrap gap-2">
-                <a class="btn btn-outline-primary btn-sm" href="docs/pages/project.html">Projects</a>
-                <a class="btn btn-outline-primary btn-sm" href="docs/pages/blog.html">Blog</a>
-                <a class="btn btn-outline-primary btn-sm" href="docs/pages/resources.html">Resources</a>
+                <a class="btn btn-outline-primary btn-sm" href="pages/project.html">Projects</a>
+                <a class="btn btn-outline-primary btn-sm" href="pages/blog.html">Blog</a>
+                <a class="btn btn-outline-primary btn-sm" href="pages/resources.html">Resources</a>
               </div>
             </div>
           </div>
@@ -153,7 +152,7 @@
     <section class="home-section">
       <div class="d-flex justify-content-between align-items-center mb-3">
         <h2 class="h5 mb-0">Featured work</h2>
-        <a class="small text-decoration-none" href="docs/pages/project.html">See all projects →</a>
+        <a class="small text-decoration-none" href="pages/project.html">See all projects →</a>
       </div>
 
       <div class="row g-3">
@@ -223,8 +222,7 @@
 
   <!-- Scripts -->
   <script src="https://unpkg.com/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- scripts.js lives in docs/jscripts/ -->
-  <script src="docs/jscripts/scripts.js"></script>
+  <script src="jscripts/scripts.js"></script>
   <script>
     const y = document.getElementById("year");
     if (y) y.textContent = new Date().getFullYear();
