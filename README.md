@@ -1,152 +1,246 @@
 # CIS 376 – Dev Profile (Final Project)
 
-This repository contains my **Developer Profile Web App**, a multi‑page static website built for the CIS 376 final project. It showcases my coursework, technical projects, achievements, and a written reflection. The site is fully responsive, accessibility‑checked, and deployed using **GitHub Pages**.
+This repository contains my Developer Profile Web App, a fully responsive, multi-page website built as the final project for CIS 376 – Web Development. It showcases my technical projects, achievements, coursework, and a written reflection rendered from Markdown.
 
----
+The site is accessibility-checked, JSON-powered, cleanly structured, and deployed using GitHub Pages (docs/).
 
-## 🔗 Live Resources
+⸻
 
-- **Live Site:** https://saimon215.github.io/DEV-PROFILE/
-- **Reflection Article:** https://saimon215.github.io/DEV-PROFILE/reflection.html  
-- **Nu HTML Validator Report (Home Page):** *(https://validator.w3.org/nu/?doc=https%3A%2F%2Fsaimon215.github.io%2FDEV-PROFILE%2F)*  
-- **WAVE Accessibility Report:** *(https://wave.webaim.org/report#/https://saimon215.github.io/DEV-PROFILE/)*  
+🔗 Live Resources
+	•	Live Dev Profile: https://saimon215.github.io/DEV-PROFILE/
+	•	Reflection Article (Markdown → HTML w/ Zero-MD): https://saimon215.github.io/DEV-PROFILE/reflection.html
+	•	Nu Validator (Home Page): https://validator.w3.org/nu/?doc=https%3A%2F%2Fsaimon215.github.io%2FDEV-PROFILE%2F
+	•	WAVE Accessibility Report: https://wave.webaim.org/report#/https://saimon215.github.io/DEV-PROFILE/
+	•	GitHub Repository: https://github.com/Saimon215/DEV-PROFILE
+	•	Wiki — Starter Front-End Template: Included per assignment requirement
+	•	Issues: Includes required open + closed issues with code blocks and milestones
 
----
+⸻
 
-## 📌 Project Requirements Coverage (Summary)
+📌 Assignment Requirements – Coverage Summary
 
-This Dev Profile meets all requirements of the CIS 376 Final Project:
+This Dev Profile fulfills all required acceptance criteria for the CIS 376 final project:
 
-### ✔ Multi‑Page Responsive Website  
-Includes **Home, Projects, Achievements, Blog, Resources, Reflection**, each using clean HTML and Bootstrap 5.
+✔ Responsive multi-page website
 
-### ✔ Shared Navigation + Footer  
-A consistent navbar and footer appear across all pages, improving UX and accessibility.
+Pages include: Home, Projects, Achievements, Blog, Resources, Reflection
 
-### ✔ JSON‑Driven Dynamic Content  
-- `projects.json` populates the **Projects page** dynamically.  
-- Achievements also load from JSON using the Fetch API.
+✔ Shared Navigation & Footer
 
-### ✔ JavaScript Functionality  
-- Dynamic rendering of cards  
-- Search/filter functionality  
-- Error handling for JSON loading  
-- Footer year auto‑update  
-- Zero‑MD rendering of Markdown
+Consistent across all pages, fully responsive with Bootstrap.
 
-### ✔ Bootstrap Components + Custom CSS  
-Uses Bootstrap grid, buttons, cards, and responsive utilities + a full custom theme with gradients, shadows, and reusable classes.
+✔ JSON-Driven Content
+	•	projects.json → Projects page
+	•	achievements.json → Achievements page
+Loaded via Fetch API + error handling.
 
-### ✔ Accessibility  
-Tested and refined using:
-- **WAVE**
-- **W3C Nu Validator**
-- **Lighthouse**
+✔ JavaScript Functionality
+	•	Dynamic card rendering
+	•	Search/filter
+	•	try/catch blocks
+	•	console logging for debugging
+	•	Footer auto-year updating
+	•	Zero-MD Markdown rendering
 
-### ✔ Reflection Article  
-A required written component, delivered in Markdown and rendered in‑page using **zero‑md**.
+✔ Directory structure
 
----
+Logical layout with separate folders for:
+css/, jscripts/, pages/, assets/, assets/data/
 
-## 🛠 Tech Stack
+✔ Libraries Used
+	•	Bootstrap 5
+	•	Bootstrap Icons
+	•	Normalize.css
+	•	Zero-MD
+	•	Native ES6 JavaScript
 
-### **Languages & Frameworks**
-- HTML5  
-- CSS3 (custom styles + Bootstrap 5 + Normalize.css)  
-- JavaScript (ES6+)
+✔ Reflection Article
 
-### **Libraries**
-- Bootstrap Icons  
-- Zero‑MD (Markdown rendering)
+Covers:
+	•	Technology definitions (block quotes)
+	•	Architecture & infrastructure
+	•	Dev processes (issues, milestones, wireframing)
+	•	Diagram explanation
+	•	Final takeaway
 
-### **Data**
-- JSON project/achievement objects  
-  - `docs/assets/data/projects.json`  
-  - `docs/assets/data/achievements.json`
+✔ Accessibility Verified
+	•	Passed Nu
+	•	Passed WAVE
+	•	Lighthouse reviewed
 
-### **Tools**
-- GitHub Pages  
-- GitHub Issues / Wiki  
-- VS Code  
-- Chrome DevTools  
+✔ GitHub Issues
 
----
+Required:
+	•	✅ 2 Closed Issues
+	•	✅ 1 Open Issue
+	•	Includes permalinks, code blocks, labels, milestones
 
-## ⭐ Key Features
+✔ GitHub Wiki
 
-### 🎨 Modern, Responsive UI
-- Custom design system (colors, badges, panels, shadows)
-- Mobile‑first layout
+Contains a reusable front-end starter template (HTML + CSS + JS + JSON).
 
-### 📁 Dynamic Project Gallery
-- Populated with Fetch API  
-- Searchable and filterable  
-- Supports tags, tech lists, images, live links, and GitHub links  
+⸻
 
-### 🏅 Achievements Page
-- Loaded dynamically from JSON  
-- Certificate images included  
+🧠 Tech Stack (Infrastructure)
 
-### 📝 Blog Page
-- Hand‑authored HTML articles  
-- Includes images stored in `docs/assets/`
+This project’s infrastructure consists of all tools, libraries, languages, and platforms used to build, test, and deploy the application.
+	•	HTML5 + CSS3 + JavaScript (ES6)
+	•	Bootstrap 5 + Bootstrap Icons
+	•	Normalize.css
+	•	Zero-MD for Markdown rendering
+	•	GitHub Pages (static hosting)
+	•	GitHub Repo + Issues + Wiki
+	•	VS Code + Live Server
+	•	Chrome DevTools (Lighthouse, WAVE extension)
+	•	Nu HTML Validator
 
-### 📄 Reflection Page
-- Markdown document rendered via Zero‑MD  
-- Fully accessible and styled  
+⸻
 
----
+🧱 Architecture (How Everything Fits Together)
 
-## 📂 Folder Structure (Simplified)
+The Dev Profile follows a clean front-end architecture:
+Local Development
+        ↓
+VS Code (Live Server)
+        ↓
+GitHub Repository (commits)
+        ↓
+GitHub Pages builds from /docs/
+        ↓
+Browser loads HTML/CSS/JS
+        ↓
+JavaScript fetches data from /assets/data/
+        ↓
+Pages render dynamic cards + Markdown
 
-```
-DEV PROFILE/
+✔ Content Flow
+	•	HTML loads UI
+	•	CSS applies theme and responsive styles
+	•	JS fetches JSON → builds cards dynamically
+	•	Reflection.md rendered using Zero-MD
+
+✔ Process Flow
+	•	Create issue → write solution → close issue
+	•	Commit changes with messages referencing issues
+	•	Push to GitHub → GitHub Pages redeploys
+	•	Validate with WAVE + Nu
+	•	Update README + Wiki
+
+⸻
+
+📘 Block-Quoted Definitions (Required by Assignment)
+
+IT Infrastructure
+“The combined set of hardware, software, networks, facilities, and services required for an organization’s technology operations.” — IBM Documentation
+
+IS Architecture
+“A conceptual model that defines the structure and operation of an organization’s information systems.” — TechTarget
+
+RESTful API
+“An API that adheres to the constraints of REST architecture, enabling interaction through HTTP methods like GET, POST, PUT, DELETE.” — MDN Web Docs
+
+Fetch API
+“A modern interface for making asynchronous HTTP requests in JavaScript.” — MDN Web Docs
+
+Agile / Scrum
+“Scrum is an agile framework using iterative sprints to deliver incremental value while emphasizing collaboration, transparency, and adaptability.” — Scrum.org
+
+⸻
+
+📂 Folder Structure
+DEV-PROFILE/
 │ index.html
-│ README.md
 │ reflection.html
+│ README.md
 │
-├── css/style.css
-├── jscripts/scripts.js
+├── css/
+│   └── style.css
+│
+├── jscripts/
+│   └── scripts.js
+│
 ├── pages/
 │   ├── project.html
 │   ├── achievements.html
 │   ├── blog.html
 │   └── resources.html
+│
 └── assets/
-│       ├── profile.jpg
-│       ├── resume.pdf
-│       └── data/
-│           ├── projects.json
-│           └── achievements.json
-```
+    ├── profile.jpg
+    ├── resume.pdf
+    └── data/
+        ├── projects.json
+        └── achievements.json
+⭐ Key Features of the Application
 
----
+🎨 Modern UI/UX
+	•	Custom theme
+	•	Gradients, shadows, rounded design
+	•	Mobile-first layout
 
-## 🚀 How to Run Locally
+📁 Dynamic Cards
+	•	Projects & Achievements loaded from JSON
+	•	Live app links + GitHub links
 
-1. Clone the repository:  
-   `git clone https://github.com/Saimon215/DEV-PROFILE.git`
+🔍 Search & Filter
+	•	Case-insensitive
+	•	Searches title, tags, and descriptions
 
-2. Open the folder in VS Code.
+📄 Blog Articles
+	•	Handwritten content
+	•	Fully styled
 
-3. Use the Live Server extension (recommended):  
-   Right‑click → **Open with Live Server**
+📝 Reflection Article
 
-4. Navigate to:  
-   `http://localhost:5500/index.html`
+Rendered via Zero-MD (Markdown → HTML).
 
----
+⸻
 
-## ✨ Future Improvements
+♿ Accessibility (A11y)
 
-- Add pagination or category filters to the Projects page  
-- Expand the Blog with more writing  
-- Add dark mode toggle  
-- Add animations for cards and transitions  
+The site is validated through:
 
----
+✔ Nu HTML Validator
 
-## 📚 License
+(all pages verified)
+
+✔ WAVE Accessibility Checker
+	•	Alt text added
+	•	Proper heading hierarchy
+	•	High-contrast buttons
+	•	Accessible nav structure
+	•	Labels on search inputs
+
+✔ Lighthouse Accessibility Score
+
+(Chrome DevTools)
+Passed with high scores.
+
+⸻
+
+🚀 How to Run the App Locally
+	1.	Clone the repository:
+  git clone https://github.com/Saimon215/DEV-PROFILE.git
+  	2.	Open folder in VS Code.
+    	3.	Start Live Server:
+  Right-click → Open with Live Server
+	4.	Visit:
+  http://localhost:5500/index.html
+✨ Future Improvements (Open Issue: Sprint 99)
+	•	Add Dark Mode toggle
+	•	Add Animations & transitions
+	•	Add Category filters to Projects
+	•	Convert JSON loading into a reusable JS module
+	•	Add more blog posts
+
+⸻
+
+🤖 AI-Assistance Disclosure
+
+Some parts of this project—including code explanations, debugging help, and structural recommendations—were created with assistance from ChatGPT (OpenAI). All code was reviewed, tested, and implemented by me.
+
+⸻
+
+© License
 
 Open-source for educational and portfolio purposes.
-
