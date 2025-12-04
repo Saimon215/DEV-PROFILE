@@ -140,17 +140,11 @@ Process Flow
 📂 Folder Structure (cleaned and consistent)
 
 Top-level repository layout and deployment folder shown below. The docs/ folder is used for GitHub Pages deployment and mirrors the built site (copy of top-level HTML/CSS/JS resources or generated build output). Keep docs/ in sync with your source files when deploying.
+``` text
 
-DEV-PROFILE/
-├─ docs/                     # GitHub Pages deployment (site files copied/published here)
-│  ├─ index.html
-│  ├─ reflection.html
-│  ├─ css/
-│  ├─ jscripts/
-│  └─ assets/
-│     └─ data/
-├─ index.html                 # Home (source for local dev)
-├─ reflection.html            # Reflection (source)
+DEV-PROFILE/                    
+├─ index.html                 
+├─ reflection.html            
 ├─ README.md
 ├─ css/
 │  └─ style.css
@@ -167,7 +161,7 @@ DEV-PROFILE/
    └─ data/
       ├─ projects.json
       └─ achievements.json
-
+```
 Notes:
 - For a small static site, copying the root files into docs/ is sufficient for GitHub Pages deployment. If you adopt a build tool later, configure the build output to target docs/.
 - Make sure assets/data/ is available in both the source and the docs/ deployment so Fetch requests succeed when hosted.
