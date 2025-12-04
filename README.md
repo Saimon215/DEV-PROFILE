@@ -1,8 +1,6 @@
 # CIS 376 – Dev Profile (Final Project)
 
-This repository contains my Developer Profile Web App, a fully responsive, multi-page website built as the final project for CIS 376 – Web Development. It showcases my technical projects, achievements, blog/reflection, and resources in an accessible, JSON-powered, well-structured site deployed using GitHub Pages.
-
-The site is accessibility-checked, JSON-driven, cleanly structured, and deployed from the docs/ folder.
+This repository contains my Developer Profile Web App, a fully responsive, multi-page website built as the final project for CIS 376 – Web Development. It showcases my technical projects, achievements, and reflections in a clean, accessible, JSON-driven site deployed from the docs/ folder.
 
 ⸻
 
@@ -141,7 +139,7 @@ Process Flow
 
 📂 Folder Structure (cleaned and consistent)
 
-Top-level repository layout and deployment folder shown below. The docs/ folder is used for GitHub Pages deployment and mirrors the built site (copy of top-level HTML/CSS/JS resources or generated build).
+Top-level repository layout and deployment folder shown below. The docs/ folder is used for GitHub Pages deployment and mirrors the built site (copy of top-level HTML/CSS/JS resources or generated build output). Keep docs/ in sync with your source files when deploying.
 
 DEV-PROFILE/
 ├─ docs/                     # GitHub Pages deployment (site files copied/published here)
@@ -150,6 +148,7 @@ DEV-PROFILE/
 │  ├─ css/
 │  ├─ jscripts/
 │  └─ assets/
+│     └─ data/
 ├─ index.html                 # Home (source for local dev)
 ├─ reflection.html            # Reflection (source)
 ├─ README.md
@@ -170,8 +169,8 @@ DEV-PROFILE/
       └─ achievements.json
 
 Notes:
-- Keep the docs/ folder in sync with the source HTML/CSS/JS for GitHub Pages. For a small static site, copying the root files into docs/ is sufficient.
-- If you use a build tool later, update docs/ as the build output.
+- For a small static site, copying the root files into docs/ is sufficient for GitHub Pages deployment. If you adopt a build tool later, configure the build output to target docs/.
+- Make sure assets/data/ is available in both the source and the docs/ deployment so Fetch requests succeed when hosted.
 
 ⭐ Key Features of the Application
 
