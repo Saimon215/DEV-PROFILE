@@ -22,7 +22,7 @@ This Dev Profile fulfills all required acceptance criteria for the CIS 376 final
 ✔ Responsive multi-page website  
 Pages include: Home, Projects, Achievements, Blog, Resources, Reflection
 
-✔ Shared Navigation & Footer  
+✔ Shared Navigation &amp; Footer  
 Consistent across all pages, fully responsive with Bootstrap.
 
 ✔ JSON-Driven Content
@@ -51,7 +51,7 @@ Logical layout with separate folders for css/, jscripts/, pages/, assets/, and a
 ✔ Reflection Article  
 Covers:
 - Technology definitions (block quotes)
-- Architecture & infrastructure
+- Architecture &amp; infrastructure
 - Dev processes (issues, milestones, wireframing)
 - Diagram explanation
 - Final takeaway
@@ -74,7 +74,7 @@ Contains a reusable front-end starter template (HTML + CSS + JS + JSON).
 
 🧠 Tech Stack (Infrastructure)
 
-This project’s infrastructure consists of all tools, libraries, languages, and platforms used to build, test, and deploy the application.
+This project's infrastructure consists of all tools, libraries, languages, and platforms used to build, test, and deploy the application.
 - HTML5 + CSS3 + JavaScript (ES6)
 - Bootstrap 5 + Bootstrap Icons
 - Normalize.css
@@ -120,20 +120,20 @@ Process Flow
 
 📘 Block-Quoted Definitions (Required by Assignment)
 
-> IT Infrastructure  
-> “The combined set of hardware, software, networks, facilities, and services required for an organization’s technology operations.” — IBM Documentation
+&gt; IT Infrastructure  
+&gt; "The combined set of hardware, software, networks, facilities, and services required for an organization's technology operations." — IBM Documentation
 
-> IS Architecture  
-> “A conceptual model that defines the structure and operation of an organization’s information systems.” — TechTarget
+&gt; IS Architecture  
+&gt; "A conceptual model that defines the structure and operation of an organization's information systems." — TechTarget
 
-> RESTful API  
-> “An API that adheres to the constraints of REST architecture, enabling interaction through HTTP methods like GET, POST, PUT, DELETE.” — MDN Web Docs
+&gt; RESTful API  
+&gt; "An API that adheres to the constraints of REST architecture, enabling interaction through HTTP methods like GET, POST, PUT, DELETE." — MDN Web Docs
 
-> Fetch API  
-> “A modern interface for making asynchronous HTTP requests in JavaScript.” — MDN Web Docs
+&gt; Fetch API  
+&gt; "A modern interface for making asynchronous HTTP requests in JavaScript." — MDN Web Docs
 
-> Agile / Scrum  
-> “Scrum is an agile framework using iterative sprints to deliver incremental value while emphasizing collaboration, transparency, and adaptability.” — Scrum.org
+&gt; Agile / Scrum  
+&gt; "Scrum is an agile framework using iterative sprints to deliver incremental value while emphasizing collaboration, transparency, and adaptability." — Scrum.org
 
 ⸻
 
@@ -180,9 +180,9 @@ Notes:
 - Mobile-first layout
 
 📁 Dynamic Cards
-- Projects & Achievements are loaded from JSON with live app links + GitHub links
+- Projects &amp; Achievements are loaded from JSON with live app links + GitHub links
 
-🔍 Search & Filter
+🔍 Search &amp; Filter
 - Case-insensitive
 - Searches title, tags, and descriptions
 
@@ -223,7 +223,7 @@ If you serve from docs/:
 
 ✨ Future Improvements (Open Issue: Sprint 99)
 - Add Dark Mode toggle
-- Add animations & transitions
+- Add animations &amp; transitions
 - Add category filters to Projects
 - Convert JSON loading into a reusable JS module
 - Add more blog posts
