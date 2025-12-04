@@ -1,8 +1,6 @@
 # CIS 376 – Dev Profile (Final Project)
 
-This repository contains my Developer Profile Web App, a fully responsive, multi-page website built as the final project for CIS 376 – Web Development. It showcases my technical projects, achievements, blog/reflection, and resources in an accessible, JSON-powered, well-structured site deployed using GitHub Pages.
-
-The site is accessibility-checked, JSON-driven, cleanly structured, and deployed from the docs/ folder.
+This repository contains my Developer Profile Web App, a fully responsive, multi-page website built as the final project for CIS 376 – Web Development. It showcases my technical projects, achievements, and reflections in a clean, accessible, JSON-driven site deployed from the docs/ folder.
 
 ⸻
 
@@ -24,7 +22,7 @@ This Dev Profile fulfills all required acceptance criteria for the CIS 376 final
 ✔ Responsive multi-page website  
 Pages include: Home, Projects, Achievements, Blog, Resources, Reflection
 
-✔ Shared Navigation & Footer  
+✔ Shared Navigation &amp; Footer  
 Consistent across all pages, fully responsive with Bootstrap.
 
 ✔ JSON-Driven Content
@@ -53,7 +51,7 @@ Logical layout with separate folders for css/, jscripts/, pages/, assets/, and a
 ✔ Reflection Article  
 Covers:
 - Technology definitions (block quotes)
-- Architecture & infrastructure
+- Architecture &amp; infrastructure
 - Dev processes (issues, milestones, wireframing)
 - Diagram explanation
 - Final takeaway
@@ -76,7 +74,7 @@ Contains a reusable front-end starter template (HTML + CSS + JS + JSON).
 
 🧠 Tech Stack (Infrastructure)
 
-This project’s infrastructure consists of all tools, libraries, languages, and platforms used to build, test, and deploy the application.
+This project's infrastructure consists of all tools, libraries, languages, and platforms used to build, test, and deploy the application.
 - HTML5 + CSS3 + JavaScript (ES6)
 - Bootstrap 5 + Bootstrap Icons
 - Normalize.css
@@ -122,26 +120,26 @@ Process Flow
 
 📘 Block-Quoted Definitions (Required by Assignment)
 
-> IT Infrastructure  
-> “The combined set of hardware, software, networks, facilities, and services required for an organization’s technology operations.” — IBM Documentation
+&gt; IT Infrastructure  
+&gt; "The combined set of hardware, software, networks, facilities, and services required for an organization's technology operations." — IBM Documentation
 
-> IS Architecture  
-> “A conceptual model that defines the structure and operation of an organization’s information systems.” — TechTarget
+&gt; IS Architecture  
+&gt; "A conceptual model that defines the structure and operation of an organization's information systems." — TechTarget
 
-> RESTful API  
-> “An API that adheres to the constraints of REST architecture, enabling interaction through HTTP methods like GET, POST, PUT, DELETE.” — MDN Web Docs
+&gt; RESTful API  
+&gt; "An API that adheres to the constraints of REST architecture, enabling interaction through HTTP methods like GET, POST, PUT, DELETE." — MDN Web Docs
 
-> Fetch API  
-> “A modern interface for making asynchronous HTTP requests in JavaScript.” — MDN Web Docs
+&gt; Fetch API  
+&gt; "A modern interface for making asynchronous HTTP requests in JavaScript." — MDN Web Docs
 
-> Agile / Scrum  
-> “Scrum is an agile framework using iterative sprints to deliver incremental value while emphasizing collaboration, transparency, and adaptability.” — Scrum.org
+&gt; Agile / Scrum  
+&gt; "Scrum is an agile framework using iterative sprints to deliver incremental value while emphasizing collaboration, transparency, and adaptability." — Scrum.org
 
 ⸻
 
 📂 Folder Structure (cleaned and consistent)
 
-Top-level repository layout and deployment folder shown below. The docs/ folder is used for GitHub Pages deployment and mirrors the built site (copy of top-level HTML/CSS/JS resources or generated build).
+Top-level repository layout and deployment folder shown below. The docs/ folder is used for GitHub Pages deployment and mirrors the built site (copy of top-level HTML/CSS/JS resources or generated build output). Keep docs/ in sync with your source files when deploying.
 
 DEV-PROFILE/
 ├─ docs/                     # GitHub Pages deployment (site files copied/published here)
@@ -150,6 +148,7 @@ DEV-PROFILE/
 │  ├─ css/
 │  ├─ jscripts/
 │  └─ assets/
+│     └─ data/
 ├─ index.html                 # Home (source for local dev)
 ├─ reflection.html            # Reflection (source)
 ├─ README.md
@@ -170,8 +169,8 @@ DEV-PROFILE/
       └─ achievements.json
 
 Notes:
-- Keep the docs/ folder in sync with the source HTML/CSS/JS for GitHub Pages. For a small static site, copying the root files into docs/ is sufficient.
-- If you use a build tool later, update docs/ as the build output.
+- For a small static site, copying the root files into docs/ is sufficient for GitHub Pages deployment. If you adopt a build tool later, configure the build output to target docs/.
+- Make sure assets/data/ is available in both the source and the docs/ deployment so Fetch requests succeed when hosted.
 
 ⭐ Key Features of the Application
 
@@ -181,7 +180,7 @@ Notes:
 - Mobile-first layout
 
 📁 Dynamic Cards
-- Projects & Achievements are loaded from JSON with live app links + GitHub links
+- Projects &amp; Achievements are loaded from JSON with live app links + GitHub links
 
 🔍 Search & Filter
 - Case-insensitive
@@ -224,7 +223,7 @@ If you serve from docs/:
 
 ✨ Future Improvements (Open Issue: Sprint 99)
 - Add Dark Mode toggle
-- Add animations & transitions
+- Add animations &amp; transitions
 - Add category filters to Projects
 - Convert JSON loading into a reusable JS module
 - Add more blog posts
