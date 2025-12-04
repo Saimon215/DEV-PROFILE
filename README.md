@@ -22,7 +22,7 @@ This Dev Profile fulfills all required acceptance criteria for the CIS 376 final
 ✔ Responsive multi-page website  
 Pages include: Home, Projects, Achievements, Blog, Resources, Reflection
 
-✔ Shared Navigation & Footer  
+✔ Shared Navigation &amp; Footer  
 Consistent across all pages, fully responsive with Bootstrap.
 
 ✔ JSON-Driven Content
@@ -51,7 +51,7 @@ Logical layout with separate folders for css/, jscripts/, pages/, assets/, and a
 ✔ Reflection Article  
 Covers:
 - Technology definitions (block quotes)
-- Architecture & infrastructure
+- Architecture &amp; infrastructure
 - Dev processes (issues, milestones, wireframing)
 - Diagram explanation
 - Final takeaway
@@ -180,7 +180,7 @@ Notes:
 - Mobile-first layout
 
 📁 Dynamic Cards
-- Projects & Achievements are loaded from JSON with live app links + GitHub links
+- Projects &amp; Achievements are loaded from JSON with live app links + GitHub links
 
 🔍 Search & Filter
 - Case-insensitive
@@ -223,7 +223,7 @@ If you serve from docs/:
 
 ✨ Future Improvements (Open Issue: Sprint 99)
 - Add Dark Mode toggle
-- Add animations & transitions
+- Add animations &amp; transitions
 - Add category filters to Projects
 - Convert JSON loading into a reusable JS module
 - Add more blog posts
